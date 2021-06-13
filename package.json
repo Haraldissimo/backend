@@ -1,0 +1,27 @@
+{
+  "name": "a27",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "vue": "^2.6.12",
+    "vuetify": "^2.4.0"
+  },
+  "devDependencies": {
+    "sass": "^1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.4.0",
+    "vuetify-loader": "^1.7.0"
+  },
+  "engines": {
+    "node": "14.17.0"
+  },
+  "license": "ISC"
+}

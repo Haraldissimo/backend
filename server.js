@@ -13,7 +13,6 @@ function log(req, res, next) {
     next();
 }
 app.use(log);
-app.use(express.favicon("/favicon.ico")); 
 //Endpoints
 app.get("/favicon.ico", (req, res) => res.status(204));
 app.get("/profs", function (req, res) {

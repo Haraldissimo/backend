@@ -14,6 +14,7 @@ function log(req, res, next) {
 }
 app.use(log);
 //Endpoints
+app.get('/favicon.ico', (req, res) => res.status(204));
 app.get("/profs", function (req, res) {
     fs.readFile(filename, "utf8", function (err, data) {
         res.writeHead(200, {

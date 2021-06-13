@@ -1,9 +1,0 @@
-Asynchroner Code: Callbacks empfangen die Events
-
-Datenformat: Json
-
-Datenaustausch: Inhalt der Datenbank, Anlegen,Löschen, ändern von Daten
-
-Sternfarbe: ListEntries v-rating "color"  AddEntry v-rating "color"
-
-Cors: Cross-Origin Resource Sharing --> Resourcen von verschiedenen quellen

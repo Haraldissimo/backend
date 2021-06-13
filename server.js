@@ -3,7 +3,7 @@ const app = express();
 const fs = require("fs");
 const cors = require("cors");
 const { json } = require("express");
-const port = 80;
+const port = process.env.PORT || 5000;
 const filename = __dirname + "/profs.json";
 //Middleware
 app.use(express.json()); //for parsing application/json
